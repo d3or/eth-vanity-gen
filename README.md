@@ -16,7 +16,7 @@ Examples:
 
 clone from github
 ``` 
-git clone  https://github.com/d3or/eth-vanity-gen.git
+git clone https://github.com/d3or/eth-vanity-gen.git
 ```
 Install dependencies
 
@@ -38,7 +38,7 @@ Run
 npm start
 ```
 
-public/private address key pairs are outputed to `eth_wallet_list.txt` in the form of `public,private`
+public/private address key pairs are outputted to `eth_wallet_list.txt` in the form of `public,private`
 
 The time to generate an address matching the prefix and suffix depends on the length of `prefix + suffix`. As the length increases it takes exponentially longer to generate a matching address.
 
